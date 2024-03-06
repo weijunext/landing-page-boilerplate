@@ -6,7 +6,7 @@ const FooterLinks = () => {
   const links = siteConfig.footerLinks;
 
   return (
-    <div className="mx-auto flex flex-row items-center">
+    <div className="mx-auto flex flex-row items-center pb-2">
       {links.map((link) => (
         <Link
           key={link.name}

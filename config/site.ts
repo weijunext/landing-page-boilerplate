@@ -15,6 +15,7 @@ const baseSiteConfig = {
     {
       name: "weijunext",
       url: "https://weijunext.com",
+      twitter: 'https://twitter.com/weijunext',
     }
   ],
   creator: '@weijunext',
@@ -37,7 +38,7 @@ const baseSiteConfig = {
     { name: 'juejin', href: "https://juejin.cn/user/26044008768029", icon: SiJuejin },
     { name: 'weChat', href: "https://weijunext.com/make-a-friend", icon: BsWechat }
   ],
-  footerProduct: [
+  footerProducts: [
     { url: 'https://weijunext.com/', name: 'J实验室' },
     { url: 'https://githubbio.com', name: 'Github Bio Generator' },
     { url: 'https://smartexcel.cc/', name: 'Smart Excel' },

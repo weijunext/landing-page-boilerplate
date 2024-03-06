@@ -3,6 +3,7 @@ import { IconType } from "react-icons"
 export type AuthorsConfig = {
   name: string
   url: string
+  twitter?: string
 }
 export type ProductLink = {
   url: string
@@ -23,7 +24,7 @@ export type SiteConfig = {
   ogImage: string
   headerLinks: Link[]
   footerLinks: Link[],
-  footerProduct: ProductLink[]
+  footerProducts: ProductLink[]
   metadataBase: URL
   themeColor: string
   icons: {
