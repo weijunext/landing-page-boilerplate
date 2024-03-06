@@ -11,7 +11,7 @@
 
 ## 技术栈
 
-Clean Next.js Starter 基于以下技术栈构建：
+Landing page boilerplate 基于以下技术栈构建：
 
 - Next.js – 前端
 - TailwindCSS – 样式
