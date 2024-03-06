@@ -1,4 +1,4 @@
-import ContactMe from "@/components/ContactMe";
+import FooterLinks from "@/components/FooterLinks";
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
 
@@ -10,7 +10,7 @@ const Footer = () => {
     <footer>
       <div className="mt-16 pt-6 pb-2 flex flex-col items-center bg-black text-sm text-gray-400 border-t">
         <div className="mb-3 flex space-x-4">
-          <ContactMe />
+          <FooterLinks />
         </div>
         <div className="mb-2 flex space-x-2 flex-wrap justify-center">
           {siteConfig.footerProduct.map((product, index) => {

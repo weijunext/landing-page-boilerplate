@@ -1,4 +1,4 @@
-import Social from "@/components/Social";
+import HeaderLinks from "@/components/HeaderLinks";
 import Image from "next/image";
 import Link from "next/link";
 import { ThemeProvider, ThemedButton } from "./ThemedButton";
@@ -25,7 +25,7 @@ const Header = () => {
           </div>
 
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <Social></Social>
+            <HeaderLinks />
             <ThemeProvider>
               <ThemedButton />
             </ThemeProvider>

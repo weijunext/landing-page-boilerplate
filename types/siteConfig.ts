@@ -1,3 +1,5 @@
+import { IconType } from "react-icons"
+
 export type AuthorsConfig = {
   name: string
   url: string
@@ -5,6 +7,11 @@ export type AuthorsConfig = {
 export type ProductLink = {
   url: string
   name: string
+}
+export type Link = {
+  name: string
+  href: string
+  icon: IconType
 }
 export type SiteConfig = {
   name: string
@@ -14,15 +21,8 @@ export type SiteConfig = {
   authors: AuthorsConfig[]
   creator: string
   ogImage: string
-  links: {
-    email?: string
-    twitter?: string
-    github?: string
-    repo?: string
-    buyMeCoffee?: string
-    juejin?: string
-    weChat?: string
-  },
+  headerLinks: Link[]
+  footerLinks: Link[],
   footerProduct: ProductLink[]
   metadataBase: URL
   themeColor: string
