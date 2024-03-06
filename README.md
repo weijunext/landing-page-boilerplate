@@ -1,24 +1,21 @@
 🌍 *[English](README.md) ∙ [简体中文](README-zh.md)*
 
 
-# [Clean Next.js Starter](https://starter.weijunext.com/)
+# [Landing page boilerplate](https://landingpage.weijunext.com/)
 
-Clean Next.js Starter is a meticulously designed Next.js starter template aimed at providing developers with a clean, efficient, and scalable foundation for quickly launching.
+A versatile landing page boilerplate, ideal for various projects and marketing campaigns.
 
-Demo address：https://starter.weijunext.com
+Demo address：https://landingpage.weijunext.com
 
-**More features are in development, aiming to complete the full development of the starter this year.**
-
-[![Clean Next.js Starter](./public/og.png)](https://www.starter.weijunext.com/)
+[![Landing page boilerplate](./public/og.png)](https://landingpage.weijunext.com/)
 
 ## Tech Stack 
 
-Clean Next.js Starter is built on the following stack:
+Landing page boilerplate is built on the following stack:
 
 - Next.js – Frontend/Backend
 - TailwindCSS – Styles
-- Shadcn – UI
-- Google Analytics - Analytics([How to use?](https://weijunext.com/article/979b9033-188c-4d88-bfff-6cf74d28420d))
+- Google Analytics
 - Vercel - Hosting
 
 
@@ -35,7 +32,7 @@ npm run dev
 ## Build Your Project
 
 Edit these files:
-- `.env` or `.env.example`
+- `.env` or `.env.local`
 - `config/site.ts`, fill in your website information.
 - `components/Footer.tsx`, fill in your website footer.
 - `public`, change logo file
@@ -48,7 +45,7 @@ Edit these files:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/clean-nextjs-starter&project-name=&repository-name=clean-nextjs-starter&demo-title=CleanNextjsStarter&demo-description=Clean%20nextjs%20starter.&demo-url=https://starter.weijunext.com&demo-image=https://starter.weijunext.com/og.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/landing-page-boilerplate&project-name=&repository-name=landing-page-boilerplate&demo-title=LandingPageBoilerplate&demo-description=Landing%20page%20boilerplate.&demo-url=https://landingpage.weijunext.com&demo-image=https://landingpage.weijunext.com/og.png)
 
 ## About Me
 I am a **Front-End Engineer**, **Full-Stack Practitioner**, and advocate of **AI adventism**.
@@ -61,7 +58,6 @@ I am a **Front-End Engineer**, **Full-Stack Practitioner**, and advocate of **AI
 [知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  
 [微信交流群](https://weijunext.com/make-a-friend)  
 
-If this project is helpful to you, star the repo or buy be a coffee, thank you.
+If this project is helpful to you, star the repo or buy be a coffee, thank you!
 
 <a href="https://www.buymeacoffee.com/weijunext" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
-
