@@ -34,7 +34,6 @@ npm run dev
 修改以下文件：
 - `.env` or `.env.example`
 - `config/site.ts`, 填写你的网站信息
-- `components/Footer.tsx`, 填写你的 Footer 组件内容
 - `public`, 修改 logo 文件
 - `public/robots.txt`
 - `app/sitemap.ts`

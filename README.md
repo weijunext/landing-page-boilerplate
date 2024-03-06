@@ -34,7 +34,6 @@ npm run dev
 Edit these files:
 - `.env` or `.env.local`
 - `config/site.ts`, fill in your website information.
-- `components/Footer.tsx`, fill in your website footer.
 - `public`, change logo file
 - `public/robots.txt`
 - `app/sitemap.ts`
