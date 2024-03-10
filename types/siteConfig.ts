@@ -25,7 +25,7 @@ export type SiteConfig = {
   headerLinks: Link[]
   footerLinks: Link[],
   footerProducts: ProductLink[]
-  metadataBase: URL
+  metadataBase: URL | string
   themeColor: string
   icons: {
     icon: string
