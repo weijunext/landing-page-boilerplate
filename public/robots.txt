@@ -19,7 +19,7 @@ User-agent: DotBot
 Disallow: /
 
 # Host
-Host: https://starter.weijunext.com
+Host: https://landingpage.weijunext.com
 
 # Sitemaps
-Sitemap: https://starter.weijunext.com/sitemap.xml
+Sitemap: https://landingpage.weijunext.com/sitemap.xml

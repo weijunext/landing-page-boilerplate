@@ -9,7 +9,7 @@ const baseSiteConfig = {
     "A versatile landing page boilerplate, ideal for various projects and marketing campaigns.",
   url: "https://landingpage.weijunext.com",
   ogImage: "https://landingpage.weijunext.com/og.png",
-  metadataBase: new URL("https://landingpage.weijunext.com"),
+  metadataBase: new URL("/"),
   keywords: ["landing page boilerplate", "landing page template", "awesome landing page", "next.js landing page"],
   authors: [
     {
