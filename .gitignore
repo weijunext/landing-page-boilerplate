@@ -123,3 +123,7 @@ dist
 .pnp.*
 
 /.vuepress/dist/
+
+# sitemap
+*/sitemap*.xml
+*/robots.txt
