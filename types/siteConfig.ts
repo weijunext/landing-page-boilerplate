@@ -14,6 +14,10 @@ export type Link = {
   href: string
   icon: IconType
 }
+export type ThemeColor = {
+  media: string
+  color: string
+}
 export type SiteConfig = {
   name: string
   description: string
@@ -26,11 +30,11 @@ export type SiteConfig = {
   footerLinks: Link[],
   footerProducts: ProductLink[]
   metadataBase: URL | string
-  themeColor: string
+  themeColors?: string | ThemeColor[]
   icons: {
     icon: string
-    shortcut: string
-    apple: string
+    shortcut?: string
+    apple?: string
   }
   openGraph: {
     type: string
@@ -39,12 +43,13 @@ export type SiteConfig = {
     title: string
     description: string
     siteName: string
+    images?: string[]
   },
   twitter: {
     card: string
     title: string
     description: string
-    images: string[]
+    images?: string[]
     creator: string
   },
 }

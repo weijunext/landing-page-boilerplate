@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import "@/styles/loading.css";
 import { Analytics } from "@vercel/analytics/react";
+import { Viewport } from "next";
 import { Inter as FontSans } from "next/font/google";
 
 export const fontSans = FontSans({
@@ -22,11 +23,13 @@ export const metadata = {
   keywords: siteConfig.keywords,
   authors: siteConfig.authors,
   creator: siteConfig.creator,
-  themeColor: siteConfig.themeColor,
   icons: siteConfig.icons,
   metadataBase: siteConfig.metadataBase,
   openGraph: siteConfig.openGraph,
   twitter: siteConfig.twitter,
+};
+export const viewport: Viewport = {
+  themeColor: siteConfig.themeColors,
 };
 
 export default async function RootLayout({
