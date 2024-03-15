@@ -31,6 +31,7 @@ export type SiteConfig = {
   footerProducts: ProductLink[]
   metadataBase: URL | string
   themeColors?: string | ThemeColor[]
+  nextThemeColor?: string
   icons: {
     icon: string
     shortcut?: string

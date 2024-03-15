@@ -46,7 +46,11 @@ export default async function RootLayout({
           fontSans.variable
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme={siteConfig.nextThemeColor}
+          enableSystem
+        >
           <Header />
           <div>
             <main className="flex flex-col items-center py-6">{children}</main>
