@@ -8,18 +8,18 @@ const FooterProducts = () => {
     <div className="flex space-x-2 flex-wrap justify-center">
       {footerProducts.map((product, index) => {
         return (
-          <>
-            <Link key={product.url} href={product.url} target="_blank">
+          <span key={product.url}>
+            <Link href={product.url} target="_blank">
               {product.name}
             </Link>
             {index !== footerProducts.length - 1 ? (
               <>
-                <div>{" • "}</div>
+                <span>{" • "}</span>
               </>
             ) : (
               <></>
             )}
-          </>
+          </span>
         );
       })}
     </div>
