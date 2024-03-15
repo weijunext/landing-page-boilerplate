@@ -13,7 +13,6 @@ const UserPurchaseAvatar = () => {
                 alt="User"
                 height={40}
                 width={40}
-                objectFit="cover"
                 className="rounded-full -m-[5px] border border-white"
               />
             );
