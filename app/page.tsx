@@ -1,10 +1,10 @@
-import BuyButton from "@/components/Home/BuyButton";
-import FQA from "@/components/Home/FQA";
-import Feature from "@/components/Home/Feature";
-import Introduction from "@/components/Home/Introduction";
-import Pricing from "@/components/Home/Pricing";
-import UserPurchaseAvatar from "@/components/Home/UserPurchaseAvatar";
-import WallOfLove from "@/components/Home/WallOfLove";
+import BuyButton from "@/components/home/BuyButton";
+import FQA from "@/components/home/FQA";
+import Feature from "@/components/home/Feature";
+import Introduction from "@/components/home/Introduction";
+import Pricing from "@/components/home/Pricing";
+import UserPurchaseAvatar from "@/components/home/UserPurchaseAvatar";
+import WallOfLove from "@/components/home/WallOfLove";
 
 export default function Home() {
   return (

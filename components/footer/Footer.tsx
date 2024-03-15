@@ -1,5 +1,5 @@
-import FooterLinks from "@/components/FooterLinks";
-import FooterProducts from "@/components/FooterProducts";
+import FooterLinks from "@/components/footer/FooterLinks";
+import FooterProducts from "@/components/footer/FooterProducts";
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
 

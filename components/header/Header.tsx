@@ -1,12 +1,12 @@
 "use client";
-import HeaderLinks from "@/components/HeaderLinks";
+import HeaderLinks from "@/components/header/HeaderLinks";
 import { siteConfig } from "@/config/site";
 import { MenuIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
-import { ThemeProvider, ThemedButton } from "./ThemedButton";
+import { ThemeProvider, ThemedButton } from "../ThemedButton";
 
 const links = [
   {

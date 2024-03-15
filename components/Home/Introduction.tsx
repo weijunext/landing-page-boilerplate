@@ -1,4 +1,4 @@
-import BuyButton from "@/components/Home/BuyButton";
+import BuyButton from "@/components/home/BuyButton";
 import { siteConfig } from "@/config/site";
 
 const Introduction = () => {
