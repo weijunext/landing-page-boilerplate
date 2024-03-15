@@ -12,7 +12,7 @@ export default function Home() {
       <Introduction />
       <UserPurchaseAvatar />
       <Feature id="Feature" />
-      <Pricing id="Priceing" />
+      <Pricing id="Pricing" />
       <WallOfLove id="WallOfLove" />
       <FQA id="FQA" />
       <BuyButton />
