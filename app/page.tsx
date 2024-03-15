@@ -1,4 +1,4 @@
-import BuyButton from "@/components/home/BuyButton";
+import CTAButton from "@/components/home/CTAButton";
 import FQA from "@/components/home/FQA";
 import Feature from "@/components/home/Feature";
 import Introduction from "@/components/home/Introduction";
@@ -15,7 +15,7 @@ export default function Home() {
       <Pricing id="Pricing" />
       <WallOfLove id="WallOfLove" />
       <FQA id="FQA" />
-      <BuyButton />
+      <CTAButton />
     </>
   );
 }
