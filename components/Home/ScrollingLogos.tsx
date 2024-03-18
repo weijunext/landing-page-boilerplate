@@ -1,50 +1,77 @@
 import React from "react";
-import { Logo1, Logo2, Logo3, Logo4, Logo5, Logo6 } from "./Logos";
+import Marquee from "react-fast-marquee";
+import {
+  SiFramer,
+  SiNextdotjs,
+  SiNextui,
+  SiReact,
+  SiTailwindcss,
+  SiTypescript,
+  SiVercel,
+} from "react-icons/si";
 
 const logos = [
   {
-    key: "logo-1",
-    logo: Logo1,
+    key: "logo-nextjs",
+    logo: SiNextdotjs,
   },
   {
-    key: "logo-2",
-    logo: Logo2,
+    key: "logo-react",
+    logo: SiReact,
   },
   {
-    key: "logo-3",
-    logo: Logo3,
+    key: "logo-tailwind",
+    logo: SiTailwindcss,
   },
   {
-    key: "logo-4",
-    logo: Logo4,
+    key: "logo-framer",
+    logo: SiFramer,
   },
   {
-    key: "logo-5",
-    logo: Logo5,
+    key: "logo-nextui",
+    logo: SiNextui,
   },
   {
-    key: "logo-6",
-    logo: Logo6,
+    key: "logo-shadcn",
+    logo: () => {
+      return (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="48"
+          id="logo-4"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M22.219 11.784L11.784 22.219a1.045 1.045 0 0 0 1.476 1.476L23.695 13.26a1.045 1.045 0 0 0-1.476-1.476M20.132.305L.305 20.132a1.045 1.045 0 0 0 1.476 1.476L21.608 1.781A1.045 1.045 0 0 0 20.132.305"
+          />
+        </svg>
+      );
+    },
+  },
+  {
+    key: "logo-ts",
+    logo: SiTypescript,
+  },
+  {
+    key: "logo-vercel",
+    logo: SiVercel,
   },
 ];
 
 const ScrollingLogos = () => {
   return (
-    <section className="mx-auto lg:max-w-7xl md:max-w-5xl w-[60%] px-6 py-10 sm:py-16 lg:px-8 lg:py-20">
-      {/*  tip: If the list of logos you want to display is long,
-        please comment out the div and then use ScrollingBanner to scroll */}
-      {/* <ScrollingBanner shouldPauseOnHover gap="40px" duration={5}> */}
-      <div className="flex gap-10 justify-center">
+    <section className="mx-auto lg:max-w-7xl md:max-w-5xl px-6 py-10 sm:py-16 lg:px-8 lg:py-20">
+      <Marquee direction="left" autoFill pauseOnHover>
         {logos.map(({ key, logo }) => (
           <div
             key={key}
-            className="flex items-center justify-center text-foreground"
+            className="flex items-center justify-center text-foreground mx-6"
           >
             {React.createElement(logo, { className: "text-5xl" })}
           </div>
         ))}
-      </div>
-      {/* </ScrollingBanner> */}
+      </Marquee>
     </section>
   );
 };

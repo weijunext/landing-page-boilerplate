@@ -13,6 +13,7 @@ export default function Home() {
       {/* Hero Section */}
       <Introduction />
       <MakerShowcase />
+      {/* Can be used to display technology stack, partners, project honors, etc. */}
       <ScrollingLogos />
 
       {/* USP (Unique Selling Proposition) */}
