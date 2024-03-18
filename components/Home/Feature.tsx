@@ -47,7 +47,7 @@ const Feature = ({ id }: { id: string }) => {
   return (
     <section
       id={id}
-      className="flex flex-col justify-center lg:max-w-7xl md:max-w-5xl w-[95%] mx-auto md:gap-14 pt-6"
+      className="flex flex-col justify-center lg:max-w-7xl md:max-w-5xl w-[95%] mx-auto md:gap-14 py-6"
     >
       <h2 className="text-center">Features</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
