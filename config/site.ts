@@ -6,7 +6,7 @@ import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
 const baseSiteConfig = {
   name: "Landing page boilerplate",
   description:
-    "A versatile landing page boilerplate, ideal for various projects and marketing campaigns.",
+    "A free, open-source, and powerful landing page boilerplate, ideal for various projects and marketing campaigns, enabling you to create a landing page in under an hour.",
   url: "https://landingpage.weijunext.com",
   ogImage: "https://landingpage.weijunext.com/og.png",
   metadataBase: '/',
@@ -23,7 +23,7 @@ const baseSiteConfig = {
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
   ],
-  nextThemeColor: 'light', // next-theme option: system | dark | light
+  nextThemeColor: 'dark', // next-theme option: system | dark | light
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",

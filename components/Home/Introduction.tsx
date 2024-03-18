@@ -6,7 +6,7 @@ const Introduction = () => {
     <>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-24 text-center">
         <h1>
-          Ship{" "}
+          Make{" "}
           <span className="relative whitespace-nowrap text-blue-600">
             <svg
               aria-hidden="true"
@@ -18,7 +18,7 @@ const Introduction = () => {
             </svg>
             <span className="relative"> Landing Page </span>{" "}
           </span>
-          <span>Easy</span>
+          <span>Fast</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-2xl tracking-tight text-slate-700 dark:text-slate-400">
           {siteConfig.description}
