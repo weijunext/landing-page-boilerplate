@@ -66,7 +66,7 @@ const ScrollingLogos = () => {
         {logos.map(({ key, logo }) => (
           <div
             key={key}
-            className="flex items-center justify-center text-foreground mx-6"
+            className="flex items-center justify-center text-foreground mx-6 cursor-pointer"
           >
             {React.createElement(logo, { className: "text-5xl" })}
           </div>
