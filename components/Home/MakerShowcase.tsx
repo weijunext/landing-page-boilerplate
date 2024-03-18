@@ -20,7 +20,7 @@ const Users = [
 
 const MakerShowcase = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-20 mt-14">
+    <section className="flex flex-col items-center justify-center gap-20 mt-14">
       <div className="flex flex-col items-center gap-5">
         <div className="flex items-center justify-center">
           {Users.map((user, index) => {
@@ -41,7 +41,7 @@ const MakerShowcase = () => {
           makers ship fast
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
