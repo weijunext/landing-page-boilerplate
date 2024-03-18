@@ -1,48 +1,82 @@
+import { MagnetIcon } from "lucide-react";
+import React from "react";
+import { BsGithub } from "react-icons/bs";
+import { FaToolbox } from "react-icons/fa";
+import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
+import { MdCloudUpload } from "react-icons/md";
+
+const FEATURES = [
+  {
+    title: "Open Source Advantage",
+    content: "Completely free with a wealth of customization options.",
+    icon: BsGithub,
+  },
+  {
+    title: "Responsive Design",
+    content:
+      "Templates meticulously designed to ensure optimal display on any device.",
+    icon: FaMobileScreenButton,
+  },
+  {
+    title: "Easy Customization",
+    content:
+      "Effortlessly change colors, fonts, and layouts without any coding knowledge.",
+    icon: FaToolbox,
+  },
+  {
+    title: "SEO Optimized",
+    content:
+      "Templates built with search engine optimization in mind to enhance your website's discoverability.",
+    icon: MagnetIcon,
+  },
+  {
+    title: "One-Click Deployment",
+    content:
+      "Tightly integrated with leading web hosting services for instant website publishing.",
+    icon: MdCloudUpload,
+  },
+  {
+    title: "Globalization Support",
+    content:
+      "Supports multiple languages, making your website attractive to a global audience.",
+    icon: FaEarthAsia,
+  },
+];
+
 const Feature = ({ id }: { id: string }) => {
   return (
-    <div id={id} className="h-48 flex items-center">
-      TODO: Feature
-    </div>
+    <section
+      id={id}
+      className="flex flex-col justify-center lg:max-w-7xl md:max-w-5xl w-[95%] mx-auto md:gap-14 pt-6"
+    >
+      <h2 className="text-center">Features</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {FEATURES.map((feature, index) => (
+          <div
+            key={feature.title}
+            className={`
+              flex flex-col items-center text-center px-8 py-6 border-b
+              ${index === 0 ? "md:border-r" : ""}
+              ${index === 1 ? "lg:border-r" : ""}
+              ${index === 2 ? "md:border-r lg:border-r-0" : ""}
+              ${index === 3 ? "lg:border-b-0 lg:border-r" : ""}
+              ${index === 4 ? "md:border-b-0 md:border-r" : ""}
+              ${index === 5 ? "border-b-0 border-r-0" : ""}
+            `}
+          >
+            <div className="p-4 w-16 h-16 dark:text-white rounded-full flex items-center justify-center">
+              {feature.icon &&
+                React.createElement(feature.icon, { className: "text-2xl" })}
+            </div>
+            <h2 className={"text-xl font-semibold mb-2"}>{feature.title}</h2>
+            <p className="text-slate-700 dark:text-slate-400">
+              {feature.content}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
 
 export default Feature;
-
-/**
- * 特性1：开源优势
-描述：完全免费，拥有丰富的定制选项。
-好处：节省成本，同时享受社区的持续更新和支持。
-图标：开放的锁或贡献的双手图标。
-特性2：响应式设计
-描述：所有模板都经过精心设计，以保证在任何设备上都有最佳显示效果。
-好处：保证用户在手机、平板和电脑上都有同样的访问体验。
-图标：不同设备屏幕的图标。
-特性3：易于定制
-描述：通过简单的界面和文档，您可以快速定制模板以适应您的品牌。
-好处：轻松更改颜色、字体和布局，无需编码知识。
-图标：调色板和工具图标。
-特性4：SEO优化
-描述：模板在构建时就考虑了搜索引擎优化，帮助您提高网页的可发现性。
-好处：吸引更多访问者，提高转化率。
-图标：搜索放大镜图标。
-特性5：一键部署
-描述：与主要的网站托管服务紧密集成，一键即可发布您的网站。
-好处：简化发布流程，快速上线。
-图标：云上传图标。
-特性6：持续集成
-描述：支持持续集成工具，保证您的网站保持最新状态。
-好处：自动化的部署流程，省时省力。
-图标：持续集成的循环箭头图标。
-特性7：国际化支持
-描述：支持多语言功能，让您的网站吸引全球用户。
-好处：扩大您的受众范围，提供本地化的体验。
-图标：地球或国旗图标。
-特性8：社区支持
-描述：激活的开源社区提供帮助，共享最佳实践。
-好处：获得问题的解答和新的想法。
-图标：社交互动的图标。
-设计考虑
-确保特性模块的设计与整个页面风格一致，并突出您的开源社区和协作精神。可以考虑使用互动元素，比如悬停效果或模块之间的平滑过渡动画，增强用户体验。将每个特性设计成一个可点击的卡片，点击后能提供更多详细信息，可以增强用户的参与度。同时，为每个特性准备清晰的文档链接，让用户能够快速了解如何使用这些特性。
-
-最后，不要忘记在特性模块的末尾放置一个明显的CTA按钮，鼓励用户下载模板或访问GitHub页面开始使用。
- */
