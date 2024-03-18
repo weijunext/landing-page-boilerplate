@@ -4,7 +4,7 @@ import { siteConfig } from "@/config/site";
 const Introduction = () => {
   return (
     <>
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-24 text-center">
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-24 text-center">
         <h1>
           Make{" "}
           <span className="relative whitespace-nowrap text-blue-600">
@@ -23,7 +23,7 @@ const Introduction = () => {
         <p className="mx-auto mt-6 max-w-2xl text-2xl tracking-tight text-slate-700 dark:text-slate-400">
           {siteConfig.description}
         </p>
-      </div>
+      </section>
 
       <CTAButton></CTAButton>
     </>
