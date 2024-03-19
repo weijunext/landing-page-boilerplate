@@ -22,8 +22,8 @@ const links = [
     href: "/#WallOfLove",
   },
   {
-    label: "FQA",
-    href: "/#FQA",
+    label: "FAQ",
+    href: "/#FAQ",
   },
 ];
 

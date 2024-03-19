@@ -1,5 +1,5 @@
 import CTA from "@/components/home/CTA";
-import FQA from "@/components/home/FQA";
+import FAQ from "@/components/home/FAQ";
 import Feature from "@/components/home/Feature";
 import Introduction from "@/components/home/Introduction";
 import MakerShowcase from "@/components/home/MakerShowcase";
@@ -26,7 +26,7 @@ export default function Home() {
       <WallOfLove id="WallOfLove" />
 
       {/* FAQ (Frequently Asked Questions) */}
-      <FQA id="FQA" />
+      <FAQ id="FAQ" />
 
       {/* CTA (Call to Action) */}
       <CTA />

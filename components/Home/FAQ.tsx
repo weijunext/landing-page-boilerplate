@@ -2,7 +2,7 @@
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { PlusIcon } from "lucide-react";
 
-const FQA = ({ id }: { id: string }) => {
+const FAQ = ({ id }: { id: string }) => {
   return (
     <section
       id={id}
@@ -42,7 +42,7 @@ const FQA = ({ id }: { id: string }) => {
   );
 };
 
-export default FQA;
+export default FAQ;
 
 const FAQS = [
   {
