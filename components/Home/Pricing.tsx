@@ -79,9 +79,13 @@ const Pricing = ({ id }: { id: string }) => {
       <Spacer y={12} />
       <div className="flex py-2">
         <p className="text-default-400">
-          Are you an open source developer?&nbsp;
-          <Link color="foreground" href="#" underline="always">
-            Get a discount
+          Do you like this landing page boilerplate?&nbsp;
+          <Link
+            color="foreground"
+            href={siteConfig.authors[0].twitter}
+            underline="always"
+          >
+            Follow my Twitter.
           </Link>
         </p>
       </div>
