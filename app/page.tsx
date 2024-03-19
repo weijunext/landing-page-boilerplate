@@ -22,7 +22,7 @@ export default function Home() {
       {/* Pricing */}
       <Pricing id="Pricing" />
 
-      {/* Social Proof 2 - Wall of Love */}
+      {/* Social Proof 2 - Testimonials / Wall of Love */}
       <WallOfLove id="WallOfLove" />
 
       {/* FAQ (Frequently Asked Questions) */}
