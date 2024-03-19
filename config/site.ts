@@ -3,6 +3,8 @@ import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
 
+const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
+
 const baseSiteConfig = {
   name: "Landing page boilerplate",
   description:
@@ -19,6 +21,7 @@ const baseSiteConfig = {
     }
   ],
   creator: '@weijunext',
+  openSourceURL: 'https://github.com/weijunext/landing-page-boilerplate',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -30,7 +33,7 @@ const baseSiteConfig = {
     apple: "/apple-touch-icon.png",
   },
   headerLinks: [
-    { name: 'repo', href: "https://github.com/weijunext/landing-page-boilerplate", icon: BsGithub },
+    { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
     { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
     { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
   ],
