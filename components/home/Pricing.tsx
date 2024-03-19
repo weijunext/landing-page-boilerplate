@@ -69,6 +69,7 @@ const Pricing = ({ id }: { id: string }) => {
                 href={tier.href}
                 variant={tier.buttonVariant}
                 target="_blank"
+                rel="noopener noreferrer nofollow"
               >
                 {tier.buttonText}
               </Button>
@@ -78,12 +79,13 @@ const Pricing = ({ id }: { id: string }) => {
       </div>
       <Spacer y={12} />
       <div className="flex py-2">
-        <p className="text-default-400">
+        <p className="text-default-400 text-center">
           Do you like this landing page boilerplate?&nbsp;
           <Link
             color="foreground"
             href={siteConfig.authors[0].twitter}
             underline="always"
+            rel="noopener noreferrer nofollow"
           >
             Follow my Twitter.
           </Link>
