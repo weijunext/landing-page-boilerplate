@@ -1,4 +1,4 @@
-import CTAButton from "@/components/home/CTAButton";
+import CTA from "@/components/home/CTA";
 import FQA from "@/components/home/FQA";
 import Feature from "@/components/home/Feature";
 import Introduction from "@/components/home/Introduction";
@@ -29,7 +29,7 @@ export default function Home() {
       <FQA id="FQA" />
 
       {/* CTA (Call to Action) */}
-      <CTAButton />
+      <CTA />
     </>
   );
 }

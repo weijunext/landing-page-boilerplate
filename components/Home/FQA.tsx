@@ -8,7 +8,7 @@ const FQA = ({ id }: { id: string }) => {
       id={id}
       className="flex flex-col justify-center max-w-[88%] items-center py-16 gap-12"
     >
-      <div className="flex flex-col text-center max-w-xl gap-4">
+      <div className="flex flex-col text-center gap-4">
         <h2 className="text-center">FAQs</h2>
         <p className="text-large text-default-500">
           Here are some of the most frequently asked questions.
