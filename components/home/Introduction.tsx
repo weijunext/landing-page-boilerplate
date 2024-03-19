@@ -1,4 +1,4 @@
-import CTAButton from "@/components/homePage/CTAButton";
+import CTAButton from "@/components/home/CTAButton";
 import { siteConfig } from "@/config/site";
 
 const Introduction = () => {

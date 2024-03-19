@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import CTAButton from "@/components/homePage/CTAButton";
+import CTAButton from "@/components/home/CTAButton";
 
 const CTA = () => {
   return (
