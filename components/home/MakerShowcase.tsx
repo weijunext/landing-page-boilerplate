@@ -1,29 +1,12 @@
+import { Makers } from "@/config/makers";
 import Image from "next/image";
-
-const Users = [
-  {
-    image: "/images/users/1.png",
-  },
-  {
-    image: "/images/users/2.png",
-  },
-  {
-    image: "/images/users/3.png",
-  },
-  {
-    image: "/images/users/4.png",
-  },
-  {
-    image: "/images/users/5.png",
-  },
-];
 
 const MakerShowcase = () => {
   return (
     <section className="flex flex-col items-center justify-center gap-20 mt-14">
       <div className="flex flex-col items-center gap-5">
         <div className="flex items-center justify-center">
-          {Users.map((user, index) => {
+          {Makers.map((user, index) => {
             return (
               <Image
                 key={index}

@@ -12,7 +12,7 @@ import {
 } from "@nextui-org/react";
 
 import { siteConfig } from "@/config/site";
-import { Tier, TiersEnum } from "@/types/pricing";
+import { TIERS } from "@/config/tiers";
 import { FaCheck } from "react-icons/fa";
 
 const Pricing = ({ id }: { id: string }) => {
@@ -34,7 +34,7 @@ const Pricing = ({ id }: { id: string }) => {
       </div>
       <Spacer y={8} />
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 justify-items-center">
-        {tiers.map((tier) => (
+        {TIERS.map((tier) => (
           <Card key={tier.key} className="p-3 max-w-[88%]" shadow="md">
             <CardHeader className="flex flex-col items-start gap-2 pb-6">
               <h2 className="text-large font-medium">{tier.title}</h2>
@@ -96,40 +96,3 @@ const Pricing = ({ id }: { id: string }) => {
 };
 
 export default Pricing;
-
-const tiers: Array<Tier> = [
-  {
-    key: TiersEnum.Free,
-    title: "Open-Source / Free",
-    price: "Free",
-    href: siteConfig.openSourceURL || "#",
-    description:
-      "Freely clone the landing page boilerplate from the GitHub repository.",
-    features: [
-      "Free",
-      "Access to full code",
-      "Secondary development",
-      "MIT License",
-    ],
-    buttonText: "Get started",
-    buttonColor: "primary",
-    buttonVariant: "solid",
-  },
-  {
-    key: TiersEnum.Customize,
-    title: "Customize",
-    href: siteConfig.authors[0].twitter || "#",
-    description: "Pay to customize an exclusive landing page.",
-    price: "$188",
-    features: [
-      "Access to full code",
-      "Secondary development",
-      "Exclusive style",
-      "One-on-one service",
-      "More exquisite pages",
-    ],
-    buttonText: "Contact us",
-    buttonColor: "default",
-    buttonVariant: "flat",
-  },
-];
