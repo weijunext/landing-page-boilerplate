@@ -2,9 +2,9 @@ import CTA from "@/components/home/CTA";
 import FAQ from "@/components/home/FAQ";
 import Feature from "@/components/home/Feature";
 import Introduction from "@/components/home/Introduction";
-import MakerShowcase from "@/components/home/MakerShowcase";
 import Pricing from "@/components/home/Pricing";
 import ScrollingLogos from "@/components/home/ScrollingLogos";
+import SocialProof from "@/components/home/SocialProof";
 import WallOfLove from "@/components/home/WallOfLove";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <Introduction />
-      <MakerShowcase />
+      <SocialProof />
       {/* Can be used to display technology stack, partners, project honors, etc. */}
       <ScrollingLogos />
 
