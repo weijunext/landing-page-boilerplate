@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
-import { ThemeProvider, ThemedButton } from "../ThemedButton";
+import { ThemedButton } from "../ThemedButton";
 
 const links = [
   {
@@ -69,9 +69,7 @@ const Header = () => {
 
         <div className="hidden md:flex items-center gap-x-5 md:gap-x-8">
           <HeaderLinks />
-          <ThemeProvider>
-            <ThemedButton />
-          </ThemeProvider>
+          <ThemedButton />
         </div>
 
         <div className="md:hidden">
@@ -138,9 +136,7 @@ const Header = () => {
                   <div className="py-2 font-bold">Links</div>
                   <div className="flex items-center gap-x-5 justify-between">
                     <HeaderLinks />
-                    <ThemeProvider>
-                      <ThemedButton />
-                    </ThemeProvider>
+                    <ThemedButton />
                   </div>
                 </div>
               </div>
