@@ -1,7 +1,7 @@
 import CTAButton from "@/components/home/CTAButton";
 import { siteConfig } from "@/config/site";
 
-const Introduction = () => {
+const Hero = () => {
   return (
     <>
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center">
@@ -30,4 +30,4 @@ const Introduction = () => {
   );
 };
 
-export default Introduction;
+export default Hero;
