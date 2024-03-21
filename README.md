@@ -36,7 +36,15 @@ Edit these files:
 - `config/site.ts`, fill in your website information.
 - `public`, change logo file
 - `public/robots.txt`
+- `app/sitemap.ts`
 
+
+
+## One-Click Deploy
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/landing-page-boilerplate&project-name=&repository-name=landing-page-boilerplate&demo-title=LandingPageBoilerplate&demo-description=Landing%20page%20boilerplate.&demo-url=https://landingpage.weijunext.com&demo-image=https://landingpage.weijunext.com/og.png)
 
 ## About Me
 I am a **Front-End Engineer**, **Full-Stack Practitioner**, and advocate of **AI adventism**.
@@ -44,7 +52,7 @@ I am a **Front-End Engineer**, **Full-Stack Practitioner**, and advocate of **AI
 [My Blog](https://weijunext.com)  
 [Github](https://github.com/weijunext)  
 [Twitter / X](https://twitter.com/weijunext)  
-[Twitter / X - En](https://twitter.com/wayne_jun_dev)  
+[Twitter / X - 2](https://twitter.com/wayne_jun_dev)  
 [Medium](https://medium.com/@weijunext)  
 [掘金](https://juejin.cn/user/26044008768029)  
 [知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  
