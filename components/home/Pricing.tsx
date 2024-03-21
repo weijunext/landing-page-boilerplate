@@ -23,7 +23,7 @@ const Pricing = ({ id }: { id: string }) => {
       className="flex flex-col justify-center max-w-4xl items-center pt-16"
     >
       <div className="flex flex-col text-center max-w-xl">
-        <h2 className="text-center">
+        <h2 className="text-center text-white">
           <RoughNotation type="highlight" show={true} color="#2563EB">
             Pricing
           </RoughNotation>

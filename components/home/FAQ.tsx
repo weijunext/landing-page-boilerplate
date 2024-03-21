@@ -11,7 +11,7 @@ const FAQ = ({ id }: { id: string }) => {
       className="flex flex-col justify-center max-w-[88%] items-center py-16 gap-12"
     >
       <div className="flex flex-col text-center gap-4">
-        <h2 className="text-center">
+        <h2 className="text-center text-white">
           <RoughNotation type="highlight" show={true} color="#2563EB">
             FAQs
           </RoughNotation>

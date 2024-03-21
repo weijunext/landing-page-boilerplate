@@ -8,7 +8,7 @@ const Feature = ({ id }: { id: string }) => {
       id={id}
       className="flex flex-col justify-center lg:max-w-7xl md:max-w-5xl w-[95%] mx-auto md:gap-14 py-6"
     >
-      <h2 className="text-center">
+      <h2 className="text-center text-white">
         <RoughNotation type="highlight" show={true} color="#2563EB">
           Features
         </RoughNotation>
