@@ -36,15 +36,7 @@ npm run dev
 - `config/site.ts`, 填写你的网站信息
 - `public`, 修改 logo 文件
 - `public/robots.txt`
-- `app/sitemap.ts`
 
-
-
-## 一键部署
-
-使用 [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples) 部署：
-
-[![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/landing-page-boilerplate&project-name=&repository-name=landing-page-boilerplate&demo-title=LandingPageBoilerplate&demo-description=Landing%20page%20boilerplate.&demo-url=https://landingpage.weijunext.com&demo-image=https://landingpage.weijunext.com/og.png)
 
 ## 关于我
 我是一名**前端工程师**、**全栈实践者**，**AI降临派**。
