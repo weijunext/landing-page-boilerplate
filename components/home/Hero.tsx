@@ -1,6 +1,5 @@
 import { LineText } from "@/components/LineText";
 import CTAButton from "@/components/home/CTAButton";
-import { siteConfig } from "@/config/site";
 
 const Hero = () => {
   return (
@@ -10,7 +9,7 @@ const Hero = () => {
           Ship <LineText>Landing Page</LineText> Fast
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-2xl tracking-tight text-slate-700 dark:text-slate-400">
-          {siteConfig.description}
+          {/* {siteConfig.description} */}
         </p>
       </section>
 

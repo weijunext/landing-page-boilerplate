@@ -2,6 +2,7 @@
 import { FAQS } from "@/config/faqs";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { PlusIcon } from "lucide-react";
+import { RoughNotation } from "react-rough-notation";
 
 const FAQ = ({ id }: { id: string }) => {
   return (
@@ -10,7 +11,11 @@ const FAQ = ({ id }: { id: string }) => {
       className="flex flex-col justify-center max-w-[88%] items-center py-16 gap-12"
     >
       <div className="flex flex-col text-center gap-4">
-        <h2 className="text-center">FAQs</h2>
+        <h2 className="text-center">
+          <RoughNotation type="highlight" show={true} color="#2563EB">
+            FAQs
+          </RoughNotation>
+        </h2>
         <p className="text-large text-default-500">
           Here are some of the most frequently asked questions.
         </p>

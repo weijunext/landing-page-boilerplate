@@ -4,6 +4,7 @@ import { siteConfig } from "@/config/site";
 import { WALL_OF_LOVE } from "@/config/wallOfLove";
 import Image from "next/image";
 import Link from "next/link";
+import { RoughNotation } from "react-rough-notation";
 
 const WallOfLove = ({ id }: { id: string }) => {
   return (
@@ -12,7 +13,11 @@ const WallOfLove = ({ id }: { id: string }) => {
       className="flex flex-col justify-center items-center pt-16 gap-12 max-w-[88%]"
     >
       <div className="flex flex-col text-center max-w-xl gap-4">
-        <h2 className="text-center">Wall of Love</h2>
+        <h2 className="text-center">
+          <RoughNotation type="highlight" show={true} color="#2563EB">
+            Wall of Love
+          </RoughNotation>
+        </h2>
         <p className="text-large text-default-500">
           {/* Don't take our word for it. Here's what they have to say. */}
           If you use this landing page template and recommend it on your

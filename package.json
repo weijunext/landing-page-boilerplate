@@ -24,6 +24,7 @@
     "react-fast-marquee": "^1.6.4",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.0.1",
+    "react-rough-notation": "^1.0.5",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },

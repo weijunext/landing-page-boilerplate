@@ -14,6 +14,7 @@ import {
 import { siteConfig } from "@/config/site";
 import { TIERS } from "@/config/tiers";
 import { FaCheck } from "react-icons/fa";
+import { RoughNotation } from "react-rough-notation";
 
 const Pricing = ({ id }: { id: string }) => {
   return (
@@ -22,7 +23,11 @@ const Pricing = ({ id }: { id: string }) => {
       className="flex flex-col justify-center max-w-4xl items-center pt-16"
     >
       <div className="flex flex-col text-center max-w-xl">
-        <h2 className="text-center">Pricing</h2>
+        <h2 className="text-center">
+          <RoughNotation type="highlight" show={true} color="#2563EB">
+            Pricing
+          </RoughNotation>
+        </h2>
         <h3 className="text-4xl font-medium tracking-tight">
           Get unlimited access.
         </h3>

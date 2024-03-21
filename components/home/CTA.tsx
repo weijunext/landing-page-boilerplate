@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import CTAButton from "@/components/home/CTAButton";
+import { RoughNotation } from "react-rough-notation";
 
 const CTA = () => {
   return (
@@ -7,7 +8,18 @@ const CTA = () => {
       <div className="flex flex-col text-center gap-4">
         <h2 className="text-center">Build Your Landing Page Now</h2>
         <p className="text-large text-default-500">
-          Build your landing page, show your product, and start earning!
+          <RoughNotation type="box" color="#b71c1c" show={true}>
+            Build
+          </RoughNotation>{" "}
+          your landing page,{" "}
+          <RoughNotation type="box" color="#b71c1c" show={true}>
+            show
+          </RoughNotation>{" "}
+          your product, and{" "}
+          <RoughNotation type="box" color="#b71c1c" show={true}>
+            start earning
+          </RoughNotation>
+          !
         </p>
       </div>
       <CTAButton />

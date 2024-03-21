@@ -1,5 +1,6 @@
 import { FEATURES } from "@/config/feature";
 import React from "react";
+import { RoughNotation } from "react-rough-notation";
 
 const Feature = ({ id }: { id: string }) => {
   return (
@@ -7,7 +8,11 @@ const Feature = ({ id }: { id: string }) => {
       id={id}
       className="flex flex-col justify-center lg:max-w-7xl md:max-w-5xl w-[95%] mx-auto md:gap-14 py-6"
     >
-      <h2 className="text-center">Features</h2>
+      <h2 className="text-center">
+        <RoughNotation type="highlight" show={true} color="#2563EB">
+          Features
+        </RoughNotation>
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {FEATURES.map((feature, index) => (
           <div
