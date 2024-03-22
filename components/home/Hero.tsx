@@ -15,8 +15,8 @@ const Hero = () => {
           ease: [0, 0.71, 0.2, 1],
           scale: {
             type: "spring",
-            damping: 5,
-            stiffness: 100,
+            damping: 10,
+            stiffness: 50,
             restDelta: 0.001,
           },
         }}
