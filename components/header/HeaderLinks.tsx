@@ -6,16 +6,14 @@ const HeaderLinks = () => {
   const links = siteConfig.headerLinks;
 
   return (
-    <div className="flex flex-row items-center">
+    <div className="flex flex-row items-center gap-6">
       {links.map((link, index) => (
         <Link
           key={link.name}
           href={link.href}
           target="_blank"
           rel="noopener norefferer nofollow"
-          className={`${
-            index === 0 ? "mr-3" : "mx-3"
-          } flex max-w-[24px] flex-col items-center justify-center`}
+          className={` flex max-w-[24px] flex-col items-center justify-center`}
         >
           {link.icon &&
             React.createElement(link.icon, { className: "text-lg" })}
