@@ -138,7 +138,10 @@ const Header = () => {
                   <div className="py-2 font-bold">Links</div>
                   <div className="flex items-center gap-x-5 justify-between">
                     <HeaderLinks />
-                    <ThemedButton />
+                    <div className="flex items-center justify-end gap-x-5">
+                      <ThemedButton />
+                      <LangSwitcher />
+                    </div>
                   </div>
                 </div>
               </div>
