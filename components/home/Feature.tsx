@@ -1,8 +1,17 @@
-import { FEATURES } from "@/config/feature";
+import { ALL_FEATURES } from "@/config/feature";
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
 
-const Feature = ({ id, locale }: { id: string; locale: any }) => {
+const Feature = ({
+  id,
+  locale,
+  langName,
+}: {
+  id: string;
+  locale: any;
+  langName: string;
+}) => {
+  const FEATURES = ALL_FEATURES[`FEATURES_${langName.toUpperCase()}`];
   return (
     <section
       id={id}

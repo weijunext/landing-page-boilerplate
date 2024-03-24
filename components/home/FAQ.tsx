@@ -1,10 +1,20 @@
 "use client";
-import { FAQS } from "@/config/faqs";
+import { ALL_FAQS } from "@/config/faqs";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { PlusIcon } from "lucide-react";
 import { RoughNotation } from "react-rough-notation";
 
-const FAQ = ({ id, locale }: { id: string; locale: any }) => {
+const FAQ = ({
+  id,
+  locale,
+  langName,
+}: {
+  id: string;
+  locale: any;
+  langName: string;
+}) => {
+  const FAQS = ALL_FAQS[`FAQS_${langName.toUpperCase()}`];
+
   return (
     <section
       id={id}

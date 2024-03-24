@@ -12,11 +12,20 @@ import {
 } from "@nextui-org/react";
 
 import { siteConfig } from "@/config/site";
-import { TIERS } from "@/config/tiers";
+import { ALL_TIERS } from "@/config/tiers";
 import { FaCheck } from "react-icons/fa";
 import { RoughNotation } from "react-rough-notation";
 
-const Pricing = ({ id, locale }: { id: string; locale: any }) => {
+const Pricing = ({
+  id,
+  locale,
+  langName,
+}: {
+  id: string;
+  locale: any;
+  langName: string;
+}) => {
+  const TIERS = ALL_TIERS[`TIERS_${langName.toUpperCase()}`];
   return (
     <section
       id={id}
