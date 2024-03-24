@@ -8,7 +8,6 @@ export function middleware(request: NextRequest) {
   const isExit = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
-  console.log(isExit);
 
   if (isExit) return;
 
