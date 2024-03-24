@@ -2,27 +2,27 @@
 import CTAButton from "@/components/home/CTAButton";
 import { RoughNotation } from "react-rough-notation";
 
-const CTA = () => {
+const CTA = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
   return (
     <section className="flex flex-col justify-center max-w-[%] items-center py-16 gap-12">
       <div className="flex flex-col text-center gap-4">
-        <h2 className="text-center">Build Your Landing Page Now</h2>
+        <h2 className="text-center">{locale.title}</h2>
         <p className="text-large text-default-500">
           <RoughNotation type="box" color="#b71c1c" show={true}>
-            Build
+            {locale.description1}
           </RoughNotation>{" "}
-          your landing page,{" "}
+          {locale.description2}{" "}
           <RoughNotation type="box" color="#b71c1c" show={true}>
-            show
+            {locale.description3}
           </RoughNotation>{" "}
-          your product, and{" "}
+          {locale.description4}{" "}
           <RoughNotation type="box" color="#b71c1c" show={true}>
-            start earning
+            {locale.description5}
           </RoughNotation>
-          !
+          {locale.description6}
         </p>
       </div>
-      <CTAButton />
+      <CTAButton locale={CTALocale} />
     </section>
   );
 };

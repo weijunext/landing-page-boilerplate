@@ -4,7 +4,7 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 import { PlusIcon } from "lucide-react";
 import { RoughNotation } from "react-rough-notation";
 
-const FAQ = ({ id }: { id: string }) => {
+const FAQ = ({ id, locale }: { id: string; locale: any }) => {
   return (
     <section
       id={id}
@@ -13,12 +13,10 @@ const FAQ = ({ id }: { id: string }) => {
       <div className="flex flex-col text-center gap-4">
         <h2 className="text-center text-white">
           <RoughNotation type="highlight" show={true} color="#2563EB">
-            FAQs
+            {locale.title}
           </RoughNotation>
         </h2>
-        <p className="text-large text-default-500">
-          Here are some of the most frequently asked questions.
-        </p>
+        <p className="text-large text-default-500">{locale.description}</p>
       </div>
       <Accordion
         fullWidth

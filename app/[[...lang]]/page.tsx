@@ -19,25 +19,25 @@ export default async function LangHome({
   return (
     <>
       {/* Hero Section */}
-      <Hero locale={dict.Index} />
-      <SocialProof />
+      <Hero locale={dict.Hero} CTALocale={dict.CTAButton} />
+      <SocialProof locale={dict.SocialProof} />
       {/* Can be used to display technology stack, partners, project honors, etc. */}
       <ScrollingLogos />
 
       {/* USP (Unique Selling Proposition) */}
-      <Feature id="Features" />
+      <Feature id="Features" locale={dict.Feature} />
 
       {/* Pricing */}
-      <Pricing id="Pricing" />
+      <Pricing id="Pricing" locale={dict.Pricing} />
 
       {/* Testimonials / Wall of Love */}
-      <WallOfLove id="WallOfLove" />
+      <WallOfLove id="WallOfLove" locale={dict.WallOfLove} />
 
       {/* FAQ (Frequently Asked Questions) */}
-      <FAQ id="FAQ" />
+      <FAQ id="FAQ" locale={dict.FAQ} />
 
       {/* CTA (Call to Action) */}
-      <CTA />
+      <CTA locale={dict.CTA} CTALocale={dict.CTAButton} />
     </>
   );
 }

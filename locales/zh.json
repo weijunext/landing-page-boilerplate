@@ -1,5 +1,43 @@
 {
-  "Index": {
-    "title": "你好，世界！"
+  "Hero": {
+    "title1": "快速构建",
+    "title2": "落地页",
+    "title3": "",
+    "description": "一个免费、开源且强大的落地页模板，适用于各种项目，让你在一个小时内搭建落地页。"
+  },
+  "SocialProof": {
+    "maker": "制作者快速开发"
+  },
+  "Feature": {
+    "title": "Feature"
+  },
+  "Pricing": {
+    "title": "定价",
+    "title2": "拥有无限访问权限",
+    "description": "你当前查看的页面是一个开源的、免费的模板。",
+    "doYouLike": "你喜欢这个落地页模板吗？",
+    "follow": "关注我的推特。"
+  },
+  "WallOfLove": {
+    "title": "Wall of Love",
+    "description1": "如果你使用这个落地页模板并在推特上推荐了，",
+    "description2": "请告诉我",
+    "description3": "，我会在这里展示你的推文和推荐。"
+  },
+  "FAQ": {
+    "title": "FAQs",
+    "description": "这里有一些最常见的问题。"
+  },
+  "CTA": {
+    "title": "立即构建你的落地页",
+    "description1": "构建",
+    "description2": "你的落地页，",
+    "description3": "展示",
+    "description4": "你的产品，并开始",
+    "description5": "赚取收入",
+    "description6": "！"
+  },
+  "CTAButton": {
+    "title": "获取模板"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "Hero": {
+    "title1": "",
+    "title2": "ランディングページ",
+    "title3": "迅速に構築",
+    "description": "無料でオープンソースかつ強力なランディングページのテンプレート。さまざまなプロジェクトに理想的で、1時間以内にランディングページを作成できます。"
+  },
+  "SocialProof": {
+    "maker": "開発者が迅速に出荷"
+  },
+  "Feature": {
+    "title": "Feature"
+  },
+  "Pricing": {
+    "title": "価格設定",
+    "title2": "無制限アクセスを取得。",
+    "description": "現在閲覧中のページは、オープンソースで無料のテンプレートです。",
+    "doYouLike": "このランディングページのテンプレートは気に入りましたか？",
+    "follow": "私のTwitterをフォローしてください。"
+  },
+  "WallOfLove": {
+    "title": "WallOfLove",
+    "description1": "このランディングページテンプレートを使用してTwitterで推奨した場合、",
+    "description2": "私に知らせてください",
+    "description3": "。あなたのツイートと推薦をここに表示します。"
+  },
+  "FAQ": {
+    "title": "FAQs",
+    "description": "最も頻繁に尋ねられる質問はこちらです。"
+  },
+  "CTA": {
+    "title": "今すぐあなたのランディングページを構築",
+    "description1": "あなたのランディングページを",
+    "description2": "構築し、",
+    "description3": "あなたの製品を",
+    "description4": "紹介し、そして",
+    "description5": "収益を得始めましょう",
+    "description6": "！"
+  },
+  "CTAButton": {
+    "title": "テンプレートを入手"
+  }
+}

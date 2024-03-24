@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RoughNotation } from "react-rough-notation";
 
-const WallOfLove = ({ id }: { id: string }) => {
+const WallOfLove = ({ id, locale }: { id: string, locale: any }) => {
   return (
     <section
       id={id}
@@ -15,22 +15,21 @@ const WallOfLove = ({ id }: { id: string }) => {
       <div className="flex flex-col text-center max-w-xl gap-4">
         <h2 className="text-center text-white">
           <RoughNotation type="highlight" show={true} color="#2563EB">
-            Wall of Love
+            {locale.title}
           </RoughNotation>
         </h2>
         <p className="text-large text-default-500">
           {/* Don't take our word for it. Here's what they have to say. */}
-          If you use this landing page template and recommend it on your
-          Twitter,{" "}
+          {locale.description1}{" "}
           <Link
             href={siteConfig.authors[0].twitter as string}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="text-primary underline"
           >
-            please let me know
+            {locale.description2}
           </Link>
-          . I will display your tweet and recommendation here.
+          {locale.description3}
         </p>
       </div>
       <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 overflow-hidden relative transition-all">

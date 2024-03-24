@@ -1,7 +1,7 @@
 import { Makers } from "@/config/makers";
 import Image from "next/image";
 
-const SocialProof = () => {
+const SocialProof = ({ locale }: { locale: any }) => {
   return (
     <section className="flex flex-col items-center justify-center gap-20 mt-14">
       <div className="flex flex-col items-center gap-5">
@@ -21,7 +21,7 @@ const SocialProof = () => {
         </div>
         <p className="text-sm text-slate-700 dark:text-slate-400">
           <span className="text-primary font-semibold text-base">1000+</span>{" "}
-          makers ship fast
+          {locale.maker}
         </p>
       </div>
     </section>

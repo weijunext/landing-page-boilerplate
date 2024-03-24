@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { RocketIcon } from "lucide-react";
 import Link from "next/link";
 
-const CTAButton = () => {
+const CTAButton = ({ locale }: { locale: any }) => {
   return (
     <Link
       href="https://github.com/weijunext/landing-page-boilerplate"
@@ -15,7 +15,7 @@ const CTAButton = () => {
         aria-label="Get Boilerplate"
       >
         <RocketIcon />
-        Get Boilerplate
+        {locale.title}
       </Button>
     </Link>
   );

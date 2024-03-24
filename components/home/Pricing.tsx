@@ -16,7 +16,7 @@ import { TIERS } from "@/config/tiers";
 import { FaCheck } from "react-icons/fa";
 import { RoughNotation } from "react-rough-notation";
 
-const Pricing = ({ id }: { id: string }) => {
+const Pricing = ({ id, locale }: { id: string; locale: any }) => {
   return (
     <section
       id={id}
@@ -25,17 +25,12 @@ const Pricing = ({ id }: { id: string }) => {
       <div className="flex flex-col text-center max-w-xl">
         <h2 className="text-center text-white">
           <RoughNotation type="highlight" show={true} color="#2563EB">
-            Pricing
+            {locale.title}
           </RoughNotation>
         </h2>
-        <h3 className="text-4xl font-medium tracking-tight">
-          Get unlimited access.
-        </h3>
+        <h3 className="text-4xl font-medium tracking-tight">{locale.title2}</h3>
         <Spacer y={4} />
-        <p className="text-large text-default-500">
-          The page you are currently viewing is an open-source, free
-          boilerplate.
-        </p>
+        <p className="text-large text-default-500">{locale.description}</p>
       </div>
       <Spacer y={8} />
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 justify-items-center">
@@ -85,14 +80,14 @@ const Pricing = ({ id }: { id: string }) => {
       <Spacer y={12} />
       <div className="flex py-2">
         <p className="text-default-400 text-center">
-          Do you like this landing page boilerplate?&nbsp;
+          {locale.doYouLike}&nbsp;
           <Link
             color="foreground"
             href={siteConfig.authors[0].twitter}
             underline="always"
             rel="noopener noreferrer nofollow"
           >
-            Follow my Twitter.
+            {locale.follow}
           </Link>
         </p>
       </div>

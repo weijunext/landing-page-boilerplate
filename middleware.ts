@@ -1,22 +1,18 @@
-import { getLocale, locales } from "./lib/i18n";
+import { locales } from "./lib/i18n";
 
 import { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  const pathnameHasLocale = locales.some(
+  const isExit = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
+  console.log(isExit);
 
-  if (pathnameHasLocale) return;
+  if (isExit) return;
 
-  const locale = getLocale({
-    "accept-language": request.headers.get("accept-language"),
-  });
-
-  request.nextUrl.pathname = `/${locale}${pathname}`;
-
+  request.nextUrl.pathname = `/`;
   return Response.redirect(request.nextUrl);
 }
 

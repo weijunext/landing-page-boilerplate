@@ -2,7 +2,7 @@ import { FEATURES } from "@/config/feature";
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
 
-const Feature = ({ id }: { id: string }) => {
+const Feature = ({ id, locale }: { id: string; locale: any }) => {
   return (
     <section
       id={id}
@@ -10,7 +10,7 @@ const Feature = ({ id }: { id: string }) => {
     >
       <h2 className="text-center text-white">
         <RoughNotation type="highlight" show={true} color="#2563EB">
-          Features
+          {locale.title}
         </RoughNotation>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
