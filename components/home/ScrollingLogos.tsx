@@ -16,7 +16,9 @@ const ScrollingLogos = () => {
               alt={image.name}
               width={50}
               height={50}
-              objectFit="cover"
+              style={{
+                objectFit: "cover", // cover, contain, none
+              }}
               className={`${
                 theme === "dark" ? "filter dark:invert grayscale" : ""
               } hover:filter-none transition-all duration-300 cursor-pointer text-gray-500`}
