@@ -1,5 +1,6 @@
 "use client";
 import HeaderLinks from "@/components/header/HeaderLinks";
+import { LangSwitcher } from "@/components/header/LangSwitcher";
 import { siteConfig } from "@/config/site";
 import { MenuIcon } from "lucide-react";
 import Image from "next/image";
@@ -11,19 +12,19 @@ import { ThemedButton } from "../ThemedButton";
 const links = [
   {
     label: "Features",
-    href: "/#features",
+    href: "#Features",
   },
   {
     label: "Pricing",
-    href: "/#pricing",
+    href: "#Pricing",
   },
   {
     label: "WallOfLove",
-    href: "/#WallOfLove",
+    href: "#WallOfLove",
   },
   {
     label: "FAQ",
-    href: "/#FAQ",
+    href: "#FAQ",
   },
 ];
 
@@ -52,7 +53,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <ul className="hidden items-center gap-8 md:flex">
+        <ul className="hidden items-center gap-6 md:flex">
           {links.map((link) => (
             <li key={link.label}>
               <Link
@@ -67,9 +68,10 @@ const Header = () => {
           ))}
         </ul>
 
-        <div className="hidden md:flex items-center gap-x-5 md:gap-x-8">
+        <div className="hidden md:flex items-center gap-x-6">
           <HeaderLinks />
           <ThemedButton />
+          <LangSwitcher />
         </div>
 
         <div className="md:hidden">

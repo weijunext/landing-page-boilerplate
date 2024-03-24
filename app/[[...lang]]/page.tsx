@@ -6,18 +6,26 @@ import Pricing from "@/components/home/Pricing";
 import ScrollingLogos from "@/components/home/ScrollingLogos";
 import SocialProof from "@/components/home/SocialProof";
 import WallOfLove from "@/components/home/WallOfLove";
+import { defaultLocale, getDictionary } from "@/lib/i18n";
 
-export default function Home() {
+export default async function LangHome({
+  params: { lang },
+}: {
+  params: { lang: string };
+}) {
+  const langSlug = (lang && lang[0]) || defaultLocale;
+  const dict = await getDictionary(langSlug);
+
   return (
     <>
       {/* Hero Section */}
-      <Hero />
+      <Hero locale={dict.Index} />
       <SocialProof />
       {/* Can be used to display technology stack, partners, project honors, etc. */}
       <ScrollingLogos />
 
       {/* USP (Unique Selling Proposition) */}
-      <Feature id="Feature" />
+      <Feature id="Features" />
 
       {/* Pricing */}
       <Pricing id="Pricing" />
