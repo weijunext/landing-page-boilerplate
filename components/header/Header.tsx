@@ -19,7 +19,7 @@ const links = [
     href: "#Pricing",
   },
   {
-    label: "WallOfLove",
+    label: "Wall of Love",
     href: "#WallOfLove",
   },
   {
