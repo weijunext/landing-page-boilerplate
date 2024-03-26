@@ -7,6 +7,10 @@ A versatile landing page boilerplate, ideal for various projects and marketing c
 
 Demo address：https://landingpage.weijunext.com
 
+Blog: 
+[我为独立开发者开发落地页模板（一）](https://juejin.cn/post/7344567650457010191)  
+[我为独立开发者开发落地页模板（二）](https://juejin.cn/post/7350200488455520267)
+
 [![Landing page boilerplate](./public/og.png)](https://landingpage.weijunext.com/)
 
 ## Tech Stack 
@@ -17,6 +21,7 @@ Landing page boilerplate is built on the following stack:
 - TailwindCSS – Styles
 - Google Analytics
 - Vercel - Hosting
+
 
 
 ## Running Locally
