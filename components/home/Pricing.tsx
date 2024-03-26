@@ -44,7 +44,7 @@ const Pricing = ({
       <Spacer y={8} />
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 justify-items-center">
         {TIERS.map((tier) => (
-          <Card key={tier.key} className="p-3 max-w-[88%]" shadow="md">
+          <Card key={tier.key} className="p-3 flex-1 w-[90%]" shadow="md">
             <CardHeader className="flex flex-col items-start gap-2 pb-6">
               <h2 className="text-large font-medium">{tier.title}</h2>
               <p className="text-medium text-default-500">{tier.description}</p>
@@ -52,7 +52,7 @@ const Pricing = ({
             <Divider />
             <CardBody className="gap-8">
               <p className="flex items-baseline gap-1 pt-2">
-                <span className="inline bg-gradient-to-br from-foreground to-foreground-600 bg-clip-text text-4xl font-semibold leading-7 tracking-tight text-transparent">
+                <span className="inline bg-gradient-to-br from-foreground to-foreground-600 bg-clip-text text-2xl font-semibold leading-7 tracking-tight text-transparent">
                   {tier.price}
                 </span>
                 {typeof tier.price !== "string" ? (
