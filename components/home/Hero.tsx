@@ -13,10 +13,10 @@ const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
           duration: 0.3,
           ease: [0, 0.71, 0.2, 1],
           scale: {
-            type: "spring",
-            damping: 10,
-            stiffness: 50,
-            restDelta: 0.001,
+            type: "tween", // tween spring
+            // damping: 10, // if spring
+            // stiffness: 50, // if spring
+            // restDelta: 0.001, // if spring
           },
         }}
       >
