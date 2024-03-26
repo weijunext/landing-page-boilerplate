@@ -12,6 +12,8 @@ export const localeNames: any = {
 };
 export const defaultLocale = "en";
 
+// If you wish to automatically redirect users to a URL that matches their browser's language setting,
+// you can use the `getLocale` to get the browser's language.
 export function getLocale(headers: any): string {
   let languages = new Negotiator({ headers }).languages();
 
@@ -28,6 +30,7 @@ const dictionaries: any = {
 };
 
 export const getDictionary = async (locale: string) => {
+  console.log(locale);
 
   if (["zh-CN", "zh-TW", "zh-HK"].includes(locale)) {
     locale = "zh";
