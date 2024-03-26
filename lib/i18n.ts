@@ -30,8 +30,6 @@ const dictionaries: any = {
 };
 
 export const getDictionary = async (locale: string) => {
-  console.log(locale);
-
   if (["zh-CN", "zh-TW", "zh-HK"].includes(locale)) {
     locale = "zh";
   }
