@@ -61,7 +61,7 @@ export const TIERS_ZH: Array<Tier> = [
     title: "定制",
     href: siteConfig.authors[0].twitter || "#",
     description: "支付定制专属落地页。",
-    price: "￥188",
+    price: "$188",
     features: [
       "访问全部代码",
       "二次开发",
