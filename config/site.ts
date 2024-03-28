@@ -30,7 +30,7 @@ const baseSiteConfig = {
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
-    // apple: "/apple-touch-icon.png",
+    apple: "/logo.png",
   },
   headerLinks: [
     { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
