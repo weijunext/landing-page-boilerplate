@@ -42,15 +42,16 @@ const FAQ = ({
         selectionMode="multiple"
         variant="splitted"
       >
-        {FAQS.map((item) => (
-          <AccordionItem
-            key={item.title}
-            indicator={<PlusIcon />}
-            title={item.title}
-          >
-            {item.content}
-          </AccordionItem>
-        ))}
+        {FAQS &&
+          FAQS.map((item) => (
+            <AccordionItem
+              key={item.title}
+              indicator={<PlusIcon />}
+              title={item.title}
+            >
+              {item.content}
+            </AccordionItem>
+          ))}
       </Accordion>
     </section>
   );
