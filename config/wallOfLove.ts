@@ -54,4 +54,22 @@ export const WALL_OF_LOVE = [
     content:
       "This template does a great job with multi-language support, which is crucial for my international project. I was able to easily add different language versions, and the template ensured consistency in layout and design across various languages. This significantly reduced my workload in the localization process and helped me reach global users more quickly.",
   },
+  {
+    user: {
+      name: "User6",
+      username: "weijunext",
+      image: "/images/users/4.png",
+    },
+    content:
+      "The interactive elements of this template added a lot of fun to my project. I particularly liked the settings for animations and transition effects, which made the browsing experience richer and more dynamic. Adjusting these interactive elements was very straightforward, requiring no deep front-end knowledge, which was very user-friendly for a non-professional front-end developer like me.",
+  },
+  {
+    user: {
+      name: "User7",
+      username: "weijunext",
+      image: "/images/users/5.png",
+    },
+    content:
+      "This template does a great job with multi-language support, which is crucial for my international project. I was able to easily add different language versions, and the template ensured consistency in layout and design across various languages. This significantly reduced my workload in the localization process and helped me reach global users more quickly.",
+  },
 ];
