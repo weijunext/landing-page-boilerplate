@@ -4,6 +4,12 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 import { PlusIcon } from "lucide-react";
 import { RoughNotation } from "react-rough-notation";
 
+// update rough notation highlight
+function triggerResizeEvent() {
+  const event = new Event("resize");
+  window.dispatchEvent(event);
+}
+
 const FAQ = ({
   id,
   locale,
@@ -41,6 +47,7 @@ const FAQ = ({
         items={FAQS}
         selectionMode="multiple"
         variant="splitted"
+        onSelectionChange={triggerResizeEvent}
       >
         {FAQS?.map((item) => (
           <AccordionItem
