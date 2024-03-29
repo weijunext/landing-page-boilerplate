@@ -21,6 +21,7 @@ export function getLocale(headers: any): string {
 }
 
 const dictionaries: any = {
+  index: () => import("@/locales/en.json").then((module) => module.default),
   en: () => import("@/locales/en.json").then((module) => module.default),
   zh: () => import("@/locales/zh.json").then((module) => module.default),
   ja: () => import("@/locales/ja.json").then((module) => module.default),
