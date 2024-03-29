@@ -23,7 +23,7 @@ const Feature = ({
         </RoughNotation>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {FEATURES.map((feature, index) => (
+        {FEATURES?.map((feature, index) => (
           <div
             key={feature.title}
             className={`

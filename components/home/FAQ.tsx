@@ -42,7 +42,7 @@ const FAQ = ({
         selectionMode="multiple"
         variant="splitted"
       >
-        {FAQS.map((item) => (
+        {FAQS?.map((item) => (
           <AccordionItem
             key={item.title}
             indicator={<PlusIcon />}
