@@ -1,3 +1,4 @@
+"use client";
 import {
   Select,
   SelectContent,
@@ -11,8 +12,11 @@ import { defaultLocale, localeNames } from "@/lib/i18n";
 
 export const LangSwitcher = () => {
   const params = useParams();
+  const lang = params.lang;
 
-  const lang = (params.lang && params.lang[0]) || defaultLocale;
+  // const lang = (params.lang && params.lang[0]) || defaultLocale;
+  let langName =
+    lang && lang[0] && lang[0] !== "index" ? lang[0] : defaultLocale;
   const router = useRouter();
 
   const handleSwitchLanguage = (value: string) => {
@@ -24,7 +28,7 @@ export const LangSwitcher = () => {
   };
 
   return (
-    <Select value={lang} onValueChange={handleSwitchLanguage}>
+    <Select value={langName} onValueChange={handleSwitchLanguage}>
       <SelectTrigger className="w-fit">
         <SelectValue placeholder="Language" />
       </SelectTrigger>

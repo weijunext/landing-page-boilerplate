@@ -13,7 +13,9 @@ export default async function LangHome({
 }: {
   params: { lang: string };
 }) {
-  const langName = (lang && lang[0]) || defaultLocale;
+  // const langName = (lang && lang[0]) || defaultLocale;
+  let langName =
+    lang && lang[0] && lang[0] !== "index" ? lang[0] : defaultLocale;
 
   const dict = await getDictionary(langName);
 
