@@ -57,7 +57,7 @@ I am a **Front-End Engineer**, **Full-Stack Practitioner**, and advocate of **AI
 [My Blog](https://weijunext.com)  
 [Github](https://github.com/weijunext)  
 [Twitter / X](https://twitter.com/weijunext)  
-[Twitter / X - 2](https://twitter.com/wayne_jun_dev)  
+[Twitter / X - En](https://twitter.com/wayne_dev)  
 [Medium](https://medium.com/@weijunext)  
 [掘金](https://juejin.cn/user/26044008768029)  
 [知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  
