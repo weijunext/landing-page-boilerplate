@@ -63,6 +63,11 @@ npm run dev
 [知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  
 [微信交流群](https://weijunext.com/make-a-friend)  
 
-如果这个项目对您有帮助，请给仓库点个star，或者请我喝杯咖啡，谢谢。
+如果这个项目对您有帮助，请给仓库点个star，能赞助一下就更好了👇
 
 <a href="https://www.buymeacoffee.com/weijunextz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="请我喝咖啡" style="height: 41px !important;width: 174px !important;" ></a>
+
+
+<a href="https://afdian.net/a/weijunext" target="_blank"><img src="./public/afd.png" alt="在爱发电支持我" style="height: 50px !important"></a>
+
+<img src="./public/zs.jpeg" alt="赞赏作者" style="height: 200px; width: 200px">
