@@ -54,12 +54,15 @@ Deploy the example using Vercel or Zeabur:
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/D92G1L)
 
 ## About Me
-I am a **Front-End Engineer**, **Full-Stack Practitioner**, and advocate of **AI adventism**.
+
+**Full-Stack Engineer, Open-Source Next.js Artist & AI Enthusiast.**
+
+**全栈工程师，Next.js 开源手艺人，AI降临派。**
 
 [My Blog](https://weijunext.com)  
 [Github](https://github.com/weijunext)  
-[Twitter / X](https://twitter.com/weijunext)  
-[Twitter / X - En](https://twitter.com/wayne_dev)  
+[Twitter/X](https://twitter.com/weijunext)  
+[Twitter/X - En](https://twitter.com/wayne_dev)  
 [Medium](https://medium.com/@weijunext)  
 [掘金](https://juejin.cn/user/26044008768029)  
 [知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  
