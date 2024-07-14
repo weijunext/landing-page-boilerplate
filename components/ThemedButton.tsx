@@ -14,7 +14,7 @@ export function ThemedButton() {
   }, []);
 
   if (!mounted) {
-    return null;
+    return <PhSunBold />;
   }
 
   return (
