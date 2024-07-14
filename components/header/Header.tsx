@@ -48,7 +48,7 @@ const Header = () => {
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-              Landing Page Boilerplate
+              {siteConfig.name}
             </span>
           </Link>
         </div>
@@ -102,7 +102,7 @@ const Header = () => {
                         height={32}
                       />
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-950 dark:text-gray-300">
-                        Landing Page
+                        {siteConfig.name}
                       </span>
                     </Link>
                   </div>
@@ -134,8 +134,7 @@ const Header = () => {
                     ))}
                   </ul>
                 </nav>
-                <div className="pt-2">
-                  <div className="py-2 font-bold">Links</div>
+                <div className="pt-4">
                   <div className="flex items-center gap-x-5 justify-between">
                     <HeaderLinks />
                     <div className="flex items-center justify-end gap-x-5">
