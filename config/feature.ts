@@ -212,7 +212,7 @@ interface FeaturesCollection {
   [key: `FEATURES_${string}`]: {
     title: string;
     content: string;
-    icon: IconType | LucideIcon;
+    icon: IconType | LucideIcon | string;
   }[];
 }
 
