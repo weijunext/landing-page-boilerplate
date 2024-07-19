@@ -7,6 +7,8 @@ A versatile landing page boilerplate, ideal for various projects and marketing c
 
 Demo address：https://landingpage.weijunext.com
 
+Used this template? Get featured in [our Showcase](https://landingpage.weijunext.com/#Showcase)! Submit your site via [GitHub Issues](https://github.com/weijunext/landing-page-boilerplate/issues) for a free dofollow link.
+
 Blog: 
 [我为独立开发者开发落地页模板（一）](https://juejin.cn/post/7344567650457010191)  
 [我为独立开发者开发落地页模板（二）](https://juejin.cn/post/7350200488455520267)

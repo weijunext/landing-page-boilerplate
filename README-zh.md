@@ -6,6 +6,8 @@
 
 演示地址：https://landingpage.weijunext.com
 
+使用过此模板？在 [Showcase](https://landingpage.weijunext.com/#Showcase) 中展示你的网站！通过 [GitHub Issues](https://github.com/weijunext/landing-page-boilerplate/issues) 提交，获得免费dofollow链接。
+
 文章: 
 [我为独立开发者开发落地页模板（一）](https://juejin.cn/post/7344567650457010191)  
 [我为独立开发者开发落地页模板（二）](https://juejin.cn/post/7350200488455520267)
