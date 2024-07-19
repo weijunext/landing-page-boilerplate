@@ -37,7 +37,9 @@ const Pricing = ({
             {locale.title}
           </RoughNotation>
         </h2>
-        <h3 className="text-4xl font-medium tracking-tight">{locale.title2}</h3>
+        <h3 className="text-4xl font-medium tracking-tight mt-2">
+          {locale.title2}
+        </h3>
         <Spacer y={4} />
         <p className="text-large text-default-500">{locale.description}</p>
       </div>

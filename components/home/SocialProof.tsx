@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SocialProof = ({ locale }: { locale: any }) => {
   return (
-    <section className="flex flex-col items-center justify-center gap-20 mt-14">
+    <section className="flex flex-col items-center justify-center gap-20 pt-16">
       <div className="flex flex-col items-center gap-5">
         <div className="flex items-center justify-center">
           {Makers.map((user, index) => {

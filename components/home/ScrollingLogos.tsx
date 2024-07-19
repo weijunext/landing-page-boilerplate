@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 const ScrollingLogos = () => {
   const { theme } = useTheme();
   return (
-    <section className="mx-auto w-full md:max-w-5xl lg:max-w-7xl px-0 md:px-6 lg:px-8 py-10 sm:py-16 lg:py-20">
+    <section className="mx-auto w-full md:max-w-5xl lg:max-w-7xl px-0 md:px-6 lg:px-8 pt-16">
       <Marquee direction="left" autoFill pauseOnHover>
         {LOGOS.map((image, index) => (
           <div className="mx-6 text-gray-500" key={index}>
