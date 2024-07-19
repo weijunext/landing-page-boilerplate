@@ -38,10 +38,10 @@ export default async function RootLayout({
   params: { lang },
 }: {
   children: React.ReactNode;
-  params: { lang: string[] | undefined };
+  params: { lang: string | undefined };
 }) {
   return (
-    <html lang={(lang && lang[0]) || defaultLocale} suppressHydrationWarning>
+    <html lang={lang || defaultLocale} suppressHydrationWarning>
       <head />
       <body
         className={cn(
