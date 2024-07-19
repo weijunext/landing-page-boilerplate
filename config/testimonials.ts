@@ -1,5 +1,5 @@
 
-export const WALL_OF_LOVE = [
+export const TestimonialsData = [
   {
     user: {
       name: "Founder",

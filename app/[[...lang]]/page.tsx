@@ -5,7 +5,7 @@ import Hero from "@/components/home/Hero";
 import Pricing from "@/components/home/Pricing";
 import ScrollingLogos from "@/components/home/ScrollingLogos";
 import SocialProof from "@/components/home/SocialProof";
-import WallOfLove from "@/components/home/WallOfLove";
+import Testimonials from "@/components/home/Testimonials";
 import { defaultLocale, getDictionary } from "@/lib/i18n";
 
 export default async function LangHome({
@@ -33,8 +33,8 @@ export default async function LangHome({
       {/* Pricing */}
       <Pricing id="Pricing" locale={dict.Pricing} langName={langName} />
 
-      {/* Testimonials / Wall of Love */}
-      <WallOfLove id="WallOfLove" locale={dict.WallOfLove} />
+      {/* Testimonials */}
+      <Testimonials id="Testimonials" locale={dict.Testimonials} />
 
       {/* FAQ (Frequently Asked Questions) */}
       <FAQ id="FAQ" locale={dict.FAQ} langName={langName} />
