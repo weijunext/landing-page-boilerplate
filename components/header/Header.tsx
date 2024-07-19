@@ -41,7 +41,7 @@ const Header = () => {
             className="flex items-center space-x-1 font-bold"
           >
             <Image
-              alt={siteConfig.name}
+              alt="Logo"
               src="/logo.svg"
               className="w-8 h-8"
               width={32}

@@ -10,6 +10,7 @@ const HeaderLinks = () => {
       {links.map((link, index) => (
         <Link
           key={link.name}
+          aria-label={link.name}
           href={link.href}
           target="_blank"
           rel="noopener norefferer nofollow"
