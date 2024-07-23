@@ -4,15 +4,15 @@ const WebsiteCard = ({
   title,
   description,
   og,
-  websiteUrl,
+  url,
 }: {
   title: string;
   description: string;
   og?: string;
-  websiteUrl: string;
+  url: string;
 }) => {
   return (
-    <Link href={websiteUrl} title={title} aria-label={title} target="_blank">
+    <Link href={url} title={title} aria-label={title} target="_blank">
       <div className="max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 px-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-primary">
         <img
           src={og || "/og.png"}

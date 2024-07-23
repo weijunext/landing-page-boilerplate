@@ -22,7 +22,7 @@ export default async function HomeIndex({ lang }: { lang: string }) {
       <ScrollingLogos />
 
       {/* Showcase */}
-      <Showcase id="Showcase" locale={dict.Showcase} langName={langName} />
+      <Showcase id="Showcase" locale={dict.Showcase} />
 
       {/* USP (Unique Selling Proposition) */}
       <Feature id="Features" locale={dict.Feature} langName={langName} />
