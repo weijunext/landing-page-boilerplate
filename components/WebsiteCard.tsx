@@ -17,7 +17,7 @@ const WebsiteCard = ({
         <img
           src={og || "/og.png"}
           alt={title}
-          className="w-full h-44 object-cover rounded-t-lg mt-4"
+          className="w-full h-44 object-cover rounded-lg mt-4"
         />
         <div className="py-4">
           <div className="font-bold text-xl mb-2 whitespace-nowrap overflow-hidden text-ellipsis text-gray-900 dark:text-white">
