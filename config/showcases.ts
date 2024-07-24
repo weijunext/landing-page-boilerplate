@@ -6,4 +6,7 @@ export const showcases = [
     // logo: '',
     // og: 'https://landingpage.weijunext.com/og.png'
   },
+  {
+    url: 'https://PHCopilot.ai/'
+  }
 ]
