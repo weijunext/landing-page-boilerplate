@@ -8,5 +8,8 @@ export const showcases = [
   },
   {
     url: 'https://PHCopilot.ai/'
+  },
+  {
+    url: 'https://regeai.com/'
   }
 ]
