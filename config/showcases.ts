@@ -14,5 +14,8 @@ export const showcases = [
   },
   {
     url: 'https://breakly.top/'
+  },
+  {
+    url: 'https://prayer-for.com/'
   }
 ]
