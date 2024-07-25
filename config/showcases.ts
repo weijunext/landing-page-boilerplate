@@ -11,5 +11,8 @@ export const showcases = [
   },
   {
     url: 'https://regeai.com/'
+  },
+  {
+    url: 'https://breakly.top/'
   }
 ]
