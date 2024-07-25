@@ -1,3 +1,11 @@
+const NEXT_PUBLIC_SHOWCASE_LIST = process.env.NEXT_PUBLIC_SHOWCASE_LIST
+
+const ENV_SHOWCASE_LIST = NEXT_PUBLIC_SHOWCASE_LIST && NEXT_PUBLIC_SHOWCASE_LIST.split(',').map(i => {
+  return {
+    url: i
+  }
+}) || []
+
 export const showcases = [
   {
     // title: 'Landing Page Boilerplate',
@@ -12,10 +20,4 @@ export const showcases = [
   {
     url: 'https://regeai.com/'
   },
-  {
-    url: 'https://breakly.top/'
-  },
-  {
-    url: 'https://prayer-for.com/'
-  }
-]
+].concat(ENV_SHOWCASE_LIST)
