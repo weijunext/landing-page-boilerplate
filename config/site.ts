@@ -46,8 +46,8 @@ const baseSiteConfig = {
     { name: 'weChat', href: "https://weijunext.com/make-a-friend", icon: BsWechat }
   ],
   footerProducts: [
-    { url: 'https://smartexcel.cc/', name: 'Smart Excel' },
     { url: 'https://phcopilot.ai/', name: 'Product Hunt Copilot' },
+    { url: 'https://smartexcel.cc/', name: 'Smart Excel' },
     { url: 'https://landingpage.weijunext.com/', name: 'Landing Page Boilerplate' },
     { url: 'https://starter.weijunext.com/', name: 'Next.js Starter' },
     { url: 'https://weijunext.com/', name: 'J实验室' },
