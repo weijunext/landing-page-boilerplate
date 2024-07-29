@@ -63,11 +63,13 @@ export const siteConfig: SiteConfig = {
     locale: "en_US",
     url: baseSiteConfig.url,
     title: baseSiteConfig.name,
+    images: [`${baseSiteConfig.url}/og.png`],
     description: baseSiteConfig.description,
     siteName: baseSiteConfig.name,
   },
   twitter: {
     card: "summary_large_image",
+    site: baseSiteConfig.url,
     title: baseSiteConfig.name,
     description: baseSiteConfig.description,
     images: [`${baseSiteConfig.url}/og.png`],

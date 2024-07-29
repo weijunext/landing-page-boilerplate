@@ -49,6 +49,7 @@ export type SiteConfig = {
   },
   twitter: {
     card: string
+    site: string
     title: string
     description: string
     images?: string[]
