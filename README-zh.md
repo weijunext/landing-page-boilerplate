@@ -2,11 +2,11 @@
 
 # [Landing page boilerplate](https://landingpage.weijunext.com/)
 
-这是一个通用的落地页模板，适合各种项目和营销活动。 
+一个开源、免费、设计精美的落地页模板，它完全使用公共图标、文字和代码实现，0设计资源，适合不擅长UI设计的个人和团队，改改图标和文字就可以发布自己的产品落地页。
 
 演示地址：https://landingpage.weijunext.com
 
-使用过此模板？在 [Showcase](https://landingpage.weijunext.com/#Showcase) 中展示你的网站！通过 [GitHub Issues](https://github.com/weijunext/landing-page-boilerplate/issues) 提交，获得免费dofollow链接。
+正在使用此模板？来 [Showcase](https://landingpage.weijunext.com/#Showcase) 中展示你的网站！通过 [GitHub Issues](https://github.com/weijunext/landing-page-boilerplate/issues) 提交，免费获得 dofollow 外链。
 
 文章: 
 [我为独立开发者开发落地页模板（一）](https://juejin.cn/post/7344567650457010191)  

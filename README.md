@@ -3,7 +3,7 @@
 
 # [Landing page boilerplate](https://landingpage.weijunext.com/)
 
-A versatile landing page boilerplate, ideal for various projects and marketing campaigns.
+An open-source, free, and beautifully designed landing page template. By simply replacing or adjusting the icons and text, you can publish your own product landing page.
 
 Demo address：https://landingpage.weijunext.com
 
