@@ -12,19 +12,19 @@ import { ThemedButton } from "../ThemedButton";
 const links = [
   {
     label: "Features",
-    href: "/#Features",
+    href: "#Features",
   },
   {
     label: "Pricing",
-    href: "/#Pricing",
+    href: "#Pricing",
   },
   {
     label: "Testimonials",
-    href: "/#Testimonials",
+    href: "#Testimonials",
   },
   {
     label: "FAQ",
-    href: "/#FAQ",
+    href: "#FAQ",
   },
 ];
 
