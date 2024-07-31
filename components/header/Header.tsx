@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import { MenuIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
@@ -29,6 +30,9 @@ const links = [
 ];
 
 const Header = () => {
+  const params = useParams();
+  const lang = params.lang;
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="py-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -57,7 +61,7 @@ const Header = () => {
           {links.map((link) => (
             <li key={link.label}>
               <Link
-                href={link.href}
+                href={`/${lang === "en" ? "" : lang}${link.href}`}
                 aria-label={link.label}
                 title={link.label}
                 className="tracking-wide transition-colors duration-200 font-norma"
