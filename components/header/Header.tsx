@@ -11,22 +11,10 @@ import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
 
 const links = [
-  {
-    label: "Features",
-    href: "#Features",
-  },
-  {
-    label: "Pricing",
-    href: "#Pricing",
-  },
-  {
-    label: "Testimonials",
-    href: "#Testimonials",
-  },
-  {
-    label: "FAQ",
-    href: "#FAQ",
-  },
+  { label: "Features", href: "#Features" },
+  { label: "Pricing", href: "#Pricing" },
+  { label: "Testimonials", href: "#Testimonials" },
+  { label: "FAQ", href: "#FAQ" },
 ];
 
 const Header = () => {
@@ -36,8 +24,9 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="py-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <nav className="relative z-50 flex justify-between">
-        <div className="flex items-center md:gap-x-12">
+      <nav className="relative z-50 flex justify-between items-center">
+        {/* Left section */}
+        <div className="flex items-center md:gap-x-12 flex-1">
           <Link
             href="/"
             aria-label="Landing Page Boilerplate"
@@ -57,14 +46,15 @@ const Header = () => {
           </Link>
         </div>
 
-        <ul className="hidden items-center gap-6 md:flex">
+        {/* Center section - Navigation */}
+        <ul className="hidden md:flex items-center justify-center gap-6 flex-1">
           {links.map((link) => (
             <li key={link.label}>
               <Link
                 href={`/${lang === "en" ? "" : lang}${link.href}`}
                 aria-label={link.label}
                 title={link.label}
-                className="tracking-wide transition-colors duration-200 font-norma"
+                className="tracking-wide transition-colors duration-200 font-normal"
               >
                 {link.label}
               </Link>
@@ -72,12 +62,14 @@ const Header = () => {
           ))}
         </ul>
 
-        <div className="hidden md:flex items-center gap-x-6">
+        {/* Right section */}
+        <div className="hidden md:flex items-center justify-end gap-x-6 flex-1">
           <HeaderLinks />
           <ThemedButton />
           <LangSwitcher />
         </div>
 
+        {/* Mobile menu button */}
         <div className="md:hidden">
           <button
             aria-label="Open Menu"
@@ -114,7 +106,7 @@ const Header = () => {
                     <button
                       aria-label="Close Menu"
                       title="Close Menu"
-                      className="tracking-wide transition-colors duration-200 font-norma"
+                      className="tracking-wide transition-colors duration-200 font-normal"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       <CgClose />
@@ -129,7 +121,7 @@ const Header = () => {
                           href={link.href}
                           aria-label={link.label}
                           title={link.label}
-                          className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide transition-colors duration-200 hover:text-deep-purple-accent-400"
                           onClick={() => setIsMenuOpen(false)}
                         >
                           {link.label}
