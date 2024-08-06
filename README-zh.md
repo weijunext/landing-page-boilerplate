@@ -52,8 +52,6 @@ npm run dev
 
 
 
-[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/D92G1L)
-
 ## 关于我
 
 **Full-Stack Engineer, Open-Source Next.js Artist & AI Enthusiast.**
