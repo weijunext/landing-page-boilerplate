@@ -54,6 +54,7 @@ const FAQ = ({
             key={item.title}
             indicator={<PlusIcon />}
             title={item.title}
+            HeadingComponent="h3"
           >
             {item.content}
           </AccordionItem>
