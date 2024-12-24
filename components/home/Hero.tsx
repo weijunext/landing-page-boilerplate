@@ -1,8 +1,15 @@
-"use client";
 import { LineText } from "@/components/LineText";
 import CTAButton from "@/components/home/CTAButton";
 
-const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
+const Hero = ({
+  locale,
+  langName,
+  CTALocale,
+}: {
+  locale: any;
+  langName: string;
+  CTALocale: any;
+}) => {
   return (
     <>
       {/* <motion.div
@@ -19,7 +26,10 @@ const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
           },
         }}
       > */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center">
+      <section
+        lang={langName}
+        className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center"
+      >
         <h1>
           {locale.title1} <LineText>{locale.title2}</LineText> {locale.title3}
         </h1>

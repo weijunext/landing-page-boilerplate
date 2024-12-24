@@ -15,7 +15,7 @@ export default async function HomeIndex({ lang }: { lang: string }) {
   return (
     <>
       {/* Hero Section */}
-      <Hero locale={dict.Hero} CTALocale={dict.CTAButton} />
+      <Hero locale={dict.Hero} langName={langName} CTALocale={dict.CTAButton} />
       <SocialProof locale={dict.SocialProof} />
       {/* display technology stack, partners, project honors, etc. */}
       <ScrollingLogos />
