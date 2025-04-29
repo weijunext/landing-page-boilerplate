@@ -1,5 +1,7 @@
 🌍 *[英文](README.md) ∙ [简体中文](README-zh.md)*
 
+🚀 如果你正在寻找功能完备的全栈启动模板，请了解我们的[高级全栈版](https://nexty.dev)
+
 # [Landing page boilerplate](https://landingpage.weijunext.com/)
 
 一个开源、免费、设计精美的落地页模板，它完全使用公共图标、文字和代码实现，0设计资源，适合不擅长UI设计的个人和团队，改改图标和文字就可以发布自己的产品落地页。
