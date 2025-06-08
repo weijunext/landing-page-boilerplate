@@ -7,7 +7,10 @@
     "postbuild": "next-sitemap",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "create-docker-image": "docker build -t landing-page-boilerplate .",
+    "save-docker-image": "docker save -o landing-page-boilerplate.tar landing-page-boilerplate",
+    "docker": "npm run build && npm run postbuild && npm run create-docker-image && npm run save-docker-image"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
