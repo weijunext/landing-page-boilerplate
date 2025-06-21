@@ -1,6 +1,6 @@
 🌍 _[English](README.md) ∙ [简体中文](README-zh.md)_
 
-🚀 Looking for a full-featured SaaS Starter Kit? [Check out the complete version](https://nexty.dev)
+🚀 Looking for a full-featured SaaS Starter Kit? [Check out the Next.js SaaS Template](https://nexty.dev)
 
 # [Landing page boilerplate](https://landingpage.weijunext.com/)
 

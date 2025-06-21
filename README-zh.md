@@ -1,6 +1,6 @@
 🌍 _[英文](README.md) ∙ [简体中文](README-zh.md)_
 
-🚀 如果你正在寻找功能完备的全栈启动模板，请了解我们的[高级全栈版](https://nexty.dev)
+🚀 如果你正在寻找功能完备的全栈启动模板，请了解我们的[Next.js SaaS 全栈版](https://nexty.dev)
 
 # [Landing page boilerplate](https://landingpage.weijunext.com/)
 

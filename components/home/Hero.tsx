@@ -1,5 +1,7 @@
 import { LineText } from "@/components/LineText";
 import CTAButton from "@/components/home/CTAButton";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Hero = ({
   locale,
@@ -39,7 +41,19 @@ const Hero = ({
         </p>
       </section>
       {/* </motion.div> */}
-      <CTAButton locale={CTALocale}></CTAButton>
+      <div className="flex justify-center gap-4">
+        <CTAButton locale={CTALocale}></CTAButton>
+        <Button variant="outline">
+          <Link href="https://nexty.dev/" className="flex items-center gap-2">
+            <img
+              src="/nexty-logo.png"
+              alt="Nexty.dev Logo"
+              className="w-4 h-4"
+            />{" "}
+            Get SaaS Boilerplate
+          </Link>
+        </Button>
+      </div>
     </>
   );
 };
