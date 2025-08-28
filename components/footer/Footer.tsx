@@ -1,3 +1,4 @@
+import Badges from "@/components/footer/Badges";
 import FooterLinks from "@/components/footer/FooterLinks";
 import FooterProducts from "@/components/footer/FooterProducts";
 import LangLinks from "@/components/footer/LangLinks";
@@ -22,6 +23,10 @@ const Footer = () => {
           </Link>{" "}
           <div>All rights reserved.</div>
         </div>
+      </div>
+
+      <div>
+        <Badges />
       </div>
     </footer>
   );
