@@ -23,10 +23,9 @@ const Footer = () => {
           </Link>{" "}
           <div>All rights reserved.</div>
         </div>
-      </div>
-
-      <div>
-        <Badges />
+        <div>
+          <Badges />
+        </div>
       </div>
     </footer>
   );
